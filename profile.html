@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/style/style.css" rel="stylesheet" />
+  <link href="/style/tailwind.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="py-1 bg-gray-200">
+      <div class="grid grid-cols-3 mx-5">
+        <div class="text-sm text-left col-span-2">"Kata Khas"</div>
+        <div class="text-sm text-right grid grid-cols-3">
+          <a href="" class="text-right">Download Aplikasi</a>
+          <a href="" class="text-right">Download Aplikasi</a>
+          <a href="" class="text-right">Download Aplikasi</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="navbar py-4 border-b border-gray-400">
+    <div class="mx-5 grid grid-cols-3">
+      <div class="col-span-2 grid grid-cols-5 gap-5">
+        <p class="text-3xl font-semibold">NELTANAS</p>
+        <div class="border col-span-3">
+          <form action="" method="get" class="mx-2 grid grid-cols-5">
+            <input type="text" class="py-2 outline-none col-span-4" />
+            <button type="submit" class="my-1 rounded bg-red-500 text-white">
+              Cari
+            </button>
+          </form>
+        </div>
+        <select name="" id="" class="mr-12">
+          <option value="">Kategori</option>
+        </select>
+      </div>
+      <div class="justify-self-end grid grid-cols-3 gap-5 text-right">
+        <a href="" class="px-6 py-2 font-semibold">Masuk</a>
+        <a href="" class="px-6 py-2 font-semibold">Masuk</a>
+        <a href=""
+          class="px-6 py-2 rounded border border-red-500 text-red-500 font-semibold hover:bg-red-500 hover:text-white">Daftar</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="grid grid-cols-4 mx-14 mt-10">
+      <div class="flex flex-col">
+        <div class="flex flex-row space-x-3">
+          <img src="/assets/profile.jpg" alt="" class="rounded-full w-24">
+          <div class="flex flex-col my-5">
+            <p>Taufik</p>
+            <a href="" class="text-blue-500">Edit</a>
+          </div>
+        </div>
+        <div class="flex flex-col mt-8">
+          <a href="" class="py-1 font-medium">Informasi Akun</a>
+          <a href="" class="py-1 font-medium">Pesan</a>
+          <a href="" class="py-1 font-medium">Keranjang</a>
+          <a href="" class="py-1 font-medium">Pemberitahuan</a>
+          <a href="" class="py-1 font-medium">Koin</a>
+          <a href="" class="py-1 font-medium">Voucher</a>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="col-span-3 flex flex-col">
+        <div class=" grid grid-cols-4 text-center">
+          <a href="" class="border-b-2 border-blue-bwa py-3">Profile</a>
+          <a href="">Bank</a>
+          <a href="">Alamat</a>
+          <a href="">Kata Sandi</a>
+        </div>
+        <div class="flex flex-col m-10 space-y-3">
+          <div class="flex flex-row space-x-3">
+            <img src="/assets/profile.jpg" alt="" class="rounded-full w-24">
+            <button class="text-blue-bwa">Ganti Foto</button>
+          </div>
+          <div class="grid grid-cols-5 gap-5">
+            <label class="font-medium text-gray-400 py-3">Email</label>
+            <input type="text"
+              class="col-span-2 p-3 border border-gray-400 focus:outline-none focus:border-blue-bwa rounded-md">
+
+          </div>
+          <div class="grid grid-cols-5 gap-5">
+            <label class="font-medium text-gray-400 py-3">Nomor Telephone</label>
+            <input type="text"
+              class="col-span-2 p-3 border border-gray-400 focus:outline-none focus:border-blue-bwa rounded-md">
+
+          </div>
+          <div class="grid grid-cols-5 gap-5">
+            <label class="font-medium text-gray-400 py-3">Jenis Kelamin</label>
+            <div class="py-3">
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+            </div>
+            <div class="py-3">
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br>
+            </div>
+
+
+          </div>
+          <div class="grid grid-cols-5 gap-5">
+            <label class="font-medium text-gray-400 py-3">Tanggal Lahir</label>
+            <input type="text"
+              class="col-span-2 p-3 border border-gray-400 focus:outline-none focus:border-blue-bwa rounded-md">
+
+          </div>
+          <button class="bg-red-500 p-3 rounded-md w-3/12 text-white self-center">Simpan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="grid grid-cols-5 border-t mx-14 py-10 text-center mt-10">
+      <div class="flex flex-col">
+        <p class="font-semibold">NELTANAS</p>
+        <a href="">Tentang Kami</a>
+        <a href="">Blog</a>
+        <a href="">Blog</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="font-semibold">NELTANAS</p>
+        <a href="">Tentang Kami</a>
+        <a href="">Blog</a>
+        <a href="">Blog</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="font-semibold">NELTANAS</p>
+        <a href="">Tentang Kami</a>
+        <a href="">Blog</a>
+        <a href="">Blog</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="font-semibold">NELTANAS</p>
+        <a href="">Tentang Kami</a>
+        <a href="">Blog</a>
+        <a href="">Blog</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="font-semibold">NELTANAS</p>
+        <a href="">Tentang Kami</a>
+        <a href="">Blog</a>
+        <a href="">Blog</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
